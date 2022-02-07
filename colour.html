@@ -1,0 +1,39 @@
+
+ <html>
+ <head>
+    <title></title>
+    <script type="text/javascript">
+      function myFun()
+
+{
+            var randcol= "";
+            var allchar="0123456789ABCDEF";
+            for(var i=0; i<6; i++)
+{
+               randcol += allchar[Math.floor(Math.random()*16)];
+
+
+    }
+
+             document.body.style.backgroundColor= "#"+randcol;
+
+   }
+    </script>
+</head>
+<body>
+<font color: "red">
+<center>
+<h1>NATURE</h1>
+<p>Conserving the lands and waters on which all life depends
+Every acre we protect and every river mile we restore begins with you.
+
+<br> Your support helps us take on the dual threats of climate change and<br>
+ biodiversity loss across 70+ countries and territories.<br><br>
+
+
+<button onclick="javascript:myFun()">Change color</button>
+</font>
+</center>
+</body>
+</html> 
+
